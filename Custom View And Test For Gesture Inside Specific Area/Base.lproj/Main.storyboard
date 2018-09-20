@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Custom_View_And_Test_For_Gesture_Inside_Specific_Area" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJ6-cR-mP8" customClass="HomeButtonView" customModule="Custom_View_And_Test_For_Gesture_Inside_Specific_Area" customModuleProvider="target">
+                                <rect key="frame" x="115" y="120" width="130" height="130"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="request-doctor" translatesAutoresizingMaskIntoConstraints="NO" id="OLY-hu-Vrn">
+                                        <rect key="frame" x="45" y="45" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="SnW-Yx-10h"/>
+                                            <constraint firstAttribute="height" constant="40" id="jar-GE-jqy"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="YkF-do-bbb"/>
+                                    <constraint firstItem="OLY-hu-Vrn" firstAttribute="centerY" secondItem="yJ6-cR-mP8" secondAttribute="centerY" id="ZUr-oq-BO9"/>
+                                    <constraint firstItem="OLY-hu-Vrn" firstAttribute="centerX" secondItem="yJ6-cR-mP8" secondAttribute="centerX" id="s4L-Ze-Isx"/>
+                                    <constraint firstAttribute="width" constant="130" id="tZE-ki-rPy"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MXf-dh-se4" customClass="HomeButtonView" customModule="Custom_View_And_Test_For_Gesture_Inside_Specific_Area" customModuleProvider="target">
+                                <rect key="frame" x="69" y="183" width="130" height="130"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="request-doctor" translatesAutoresizingMaskIntoConstraints="NO" id="pTj-DJ-nzJ">
+                                        <rect key="frame" x="45" y="45" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="ZBD-4R-Rg7"/>
+                                            <constraint firstAttribute="height" constant="40" id="nI4-Ue-HFK"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="pTj-DJ-nzJ" firstAttribute="centerY" secondItem="MXf-dh-se4" secondAttribute="centerY" id="GI9-Xg-oMW"/>
+                                    <constraint firstAttribute="width" constant="130" id="YAk-IT-y0L"/>
+                                    <constraint firstItem="pTj-DJ-nzJ" firstAttribute="centerX" secondItem="MXf-dh-se4" secondAttribute="centerX" id="hj6-ZM-s18"/>
+                                    <constraint firstAttribute="height" constant="130" id="lH1-Mi-cTN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kM6-Mo-cho" customClass="HomeButtonView" customModule="Custom_View_And_Test_For_Gesture_Inside_Specific_Area" customModuleProvider="target">
+                                <rect key="frame" x="201" y="183" width="130" height="130"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="request-doctor" translatesAutoresizingMaskIntoConstraints="NO" id="mSs-hc-iNu">
+                                        <rect key="frame" x="45" y="45" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="6Ms-8p-D3K"/>
+                                            <constraint firstAttribute="height" constant="40" id="ZiE-gu-riX"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="R6k-W7-VrC"/>
+                                    <constraint firstAttribute="width" constant="130" id="h6e-MM-l9n"/>
+                                    <constraint firstItem="mSs-hc-iNu" firstAttribute="centerX" secondItem="kM6-Mo-cho" secondAttribute="centerX" id="r1s-ZH-T03"/>
+                                    <constraint firstItem="mSs-hc-iNu" firstAttribute="centerY" secondItem="kM6-Mo-cho" secondAttribute="centerY" id="zcO-Nd-mV2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yJ6-cR-mP8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="0o2-Re-Gou"/>
+                            <constraint firstItem="kM6-Mo-cho" firstAttribute="leading" secondItem="MXf-dh-se4" secondAttribute="trailing" constant="2" id="Da4-qa-HFp"/>
+                            <constraint firstItem="yJ6-cR-mP8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="-7.5" id="QBd-ue-48l"/>
+                            <constraint firstItem="MXf-dh-se4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="163" id="g4C-2j-Ooy"/>
+                            <constraint firstItem="MXf-dh-se4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="npq-Oe-Rsj"/>
+                            <constraint firstItem="kM6-Mo-cho" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="163" id="zKY-Yh-X0b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="view1" destination="yJ6-cR-mP8" id="TTt-V5-ZI4"/>
+                        <outlet property="view2" destination="MXf-dh-se4" id="edB-uy-z66"/>
+                        <outlet property="view3" destination="kM6-Mo-cho" id="BnW-lz-U8u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="131.78410794602701"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="request-doctor" width="36" height="37"/>
+    </resources>
+</document>
